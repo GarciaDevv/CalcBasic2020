@@ -23,7 +23,7 @@ while (true) {
             break;
 
         case "/":
-            if (solici2 !== 0) {  // Verifica se não está dividindo por zero
+            if (solici2 !== 0) { 
                 resultado = solici / solici2;
                 console.log(resultado);
             } else {
